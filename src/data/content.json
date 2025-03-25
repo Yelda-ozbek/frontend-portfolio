@@ -1,0 +1,95 @@
+{
+    "tr": {
+      "hero": {
+        "title": "Ben bir Frontend Geliştiricisiyim...",
+       "desc": "Estetik ve işlevselliği bir araya getiren, kullanıcı odaklı arayüzler geliştiriyorum."
+        ,
+        "github": "https://github.com/Yelda-ozbek",
+        "linkedin": "https://www.linkedin.com/in/yelda-%C3%B6zbek-430584353/"
+      },
+      "skills": ["JavaScript", "React", "Redux", "Node", "VS Code", "Figma"],
+      "profile": {
+        "basicInfo": [
+          { "label": "Doğum Tarihi", "value": "19.06.2000" },
+          { "label": "İkamet Şehri", "value": "İzmir" },
+          {
+            "label": "Eğitim",
+            "value": "Dokuz Eylül Üniversitesi, Yönetim Bilişim Sistemleri 2023"
+          },
+          { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+        ],
+        "about": "Dokuz Eylül Üniversitesi Yönetim Bilişim Sistemleri bölümünden mezun oldum. Eğitim sürecimde birçok projede aktif olarak görev aldım. 3 ay süren Workintech Frontend kampını başarıyla tamamladım."
+
+      },
+      "contact": {
+        "title": "Bana mesaj gönder!",
+        "desc": "Bir sorunuz veya öneriniz mi var? Merhaba demek mi istiyorsunuz? Hadi yazın!"
+      }
+,      
+      "projects": [
+        {
+          "title": "Workintech",
+          "desc": "Workintech yapay zekâ destekli yazılım eğitiminde Türkiye'nin öncü şirketi",
+          "tags": ["React", "CSS","HTML","JavaScript", "cypress.io","Redux","TanStackQuery","TailwindCss","OpenAl"],
+          "image": "workintech",
+          "live": "https://www.workintech.com.tr/",
+          "github": "https://github.com/Workintech"
+        },
+        {
+          "title": "Horse Club",
+          "desc": "At severler için tasarladığım bu uygulama sayesinde at alım-satımı, etkinlik takibi ve topluluk etkileşimi artık çok daha kolay.",
+          "tags": ["HTML", "CSS", "JavaScript","PHP","MySQL"],
+          "image": "horseClub",
+          "live": "https://www.youtube.com/watch?v=G2wzGOuLR8k&t=64s",
+          "github": "https://github.com/Yelda-ozbek"
+        }
+      ]
+    },
+    "en": {
+      "hero": {
+        "title": "I am a Frontend Developer...",
+        "desc": "I design user-focused interfaces that combine aesthetics and functionality.",
+
+        "github": "https://github.com/Yelda-ozbek",
+        "linkedin": "https://linkedin.com"
+      },
+      "skills": ["JavaScript", "React", "Redux", "Node", "VS Code", "Figma"],
+      "profile": {
+        "basicInfo": [
+          { "label": "Birth Date", "value": "19.06.2000" },
+          { "label": "City", "value": "İzmir" },
+          {
+            "label": "Education",
+            "value": "Dokuz Eylül University, MIS 2023"
+          },
+          { "label": "Preferred Role", "value": "Frontend, UI" }
+        ],
+        "about": "I graduated from Dokuz Eylul University, majoring in Management Information Systems. During my studies, I actively participated in various projects. I successfully completed the 3-month Workintech Frontend Bootcamp."
+
+      },
+      "contact": {
+        "title": "Send me a message!",
+        "desc": "Got a question or proposal, or just want to say hello? Go ahead."
+      },
+      
+      "projects": [
+        {
+          "title": "Workintech",
+          "desc": "Workintech is Turkey's leading company in artificial intelligence supported software training.",
+          "tags": ["HTML", "CSS", "JavaScript","PHP","MySQL"],
+          "image": "horseClub",
+          "live": "https://www.youtube.com/watch?v=G2wzGOuLR8k&t=64s",
+          "github": "https://github.com/Yelda-ozbek"
+        },
+        {
+          "title": "Horse Club",
+          "desc": "Thanks to this app I designed for horse lovers, buying and selling horses, event tracking and community interaction is now much easier.",
+          "tags": ["React", "Styled-Components", "Responsive"],
+          "image": "/projects/journey.png",
+          "live": "#",
+          "github": "#"
+        }
+      ]
+    }
+  }
+  

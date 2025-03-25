@@ -1,20 +1,30 @@
-import React from "react";
-import { ToastContainer, toast } from "react-toastify";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import { useTheme } from "./context/ThemeContext";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
-const App = () => {
-  const notify = () => {
-    toast.success("Başarılı! 🎉");
-  };
+function App() {
+  const { dark, toggleTheme } = useTheme();
 
   return (
-    <div>
-      <button onClick={notify} className="bg-blue-500 text-white p-4 rounded">
-        Bildirim Gönder
-      </button>
+    <div className="font-sans bg-white dark:bg-gray-900 text-black dark:text-white transition-colors duration-300">
+   
+    
+
+      <Hero />
+      <Skills />
+      <Profile />
+      <Projects />
       <ToastContainer />
+      <Contact />
+      <Footer/>
     </div>
   );
-};
+}
 
-export default App; // ✅ Bu satır şart!
+export default App;
