@@ -7,8 +7,9 @@ const Header = () => {
 
   return (
     <header className="bg-violet-800 text-white px-6 md:px-20 py-4 flex justify-between items-center">
+     
       <h1 className="text-xl font-bold">Yelda</h1>
-
+      
       <div className="flex gap-4 items-center">
         
         <button
@@ -23,7 +24,7 @@ const Header = () => {
   onClick={toggleTheme}
   className="bg-limeBg text-darkBg px-4 py-1 rounded-full font-semibold shadow hover:brightness-95 transition"
 >
-  {dark ? "☀️ Light Mode" : "🌙 Dark Mode"}
+
 </button>
 
       </div>
